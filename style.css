@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(238, 32, 5, 0.767);
+}
+h1{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+button{
+    background-color: brown;
+    border-color: black;
+    border-radius: 12%;
+}
+a{
+    color: black;
+}
+button:hover{
+    background-color: coral;
+}
+hr{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top:10px dotted #380b0b;
+    width: 20%;
+}
